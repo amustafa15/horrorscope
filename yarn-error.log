@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js global dir
+
+PATH: 
+  /Users/ameenmustafa/Desktop/Apps/Coding Stuff/react-native-projects 6-1-23/react-native-projects/horrorscope/node_modules/.bin:/Users/ameenmustafa/Desktop/Apps/Coding Stuff/react-native-projects 6-1-23/react-native-projects/horrorscope/node_modules/.bin:/Users/ameenmustafa/Desktop/Apps/Coding Stuff/react-native-projects 6-1-23/react-native-projects/node_modules/.bin:/Users/ameenmustafa/Desktop/Apps/Coding Stuff/react-native-projects 6-1-23/node_modules/.bin:/Users/ameenmustafa/Desktop/Apps/Coding Stuff/node_modules/.bin:/Users/ameenmustafa/Desktop/Apps/node_modules/.bin:/Users/ameenmustafa/Desktop/node_modules/.bin:/Users/ameenmustafa/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/ameenmustafa/Library/Android/sdk/tools/bin:/Users/ameenmustafa/Library/Android/sdk/tools:/Users/ameenmustafa/Library/Android/sdk/platform-tools:/Users/ameenmustafa/.cargo/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  19.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Failed to replace env in config: ${NPM_TOKEN}
+      at /usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:98790:13
+      at String.replace (<anonymous>)
+      at envReplace (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:98785:16)
+      at Function.normalizeConfig (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:31887:69)
+      at NpmRegistry.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:31917:34)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "horrorscope",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "@react-native-community/datetimepicker": "^7.1.0",
+      "@react-navigation/native": "^6.1.6",
+      "@react-navigation/native-stack": "^6.9.12",
+      "@react-navigation/stack": "^6.3.16",
+      "axios": "^1.4.0",
+      "expo": "~48.0.18",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.8"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

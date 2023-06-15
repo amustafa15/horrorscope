@@ -1,13 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
+import React, { useState, useEffect} from "react"
+import {NavigationContainer} from '@react-navigation/native'
+
+import MyStack from "./components/MyStack/MyStack";
+
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <NavigationContainer>
+      {/* <SignupStackContainer /> */}
+      <MyStack />
+    </NavigationContainer> 
+)
 }
 
 const styles = StyleSheet.create({
